@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1144023744699008}
+  m_IsPrefabAsset: 1
+--- !u!1 &1144023744699008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4646650753989522}
+  - component: {fileID: 114844757596660032}
+  m_Layer: 0
+  m_Name: WhiteKey Generator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4646650753989522
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1144023744699008}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114844757596660032
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1144023744699008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59c800c643db72747ae75abe2adc29a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tileSettings:
+    tiles:
+    - type: {fileID: 11400000, guid: b18e2f82c21946943bfc552f25fde0c6, type: 2}
+      prefab: {fileID: 1509938867589900, guid: 83c6fc8af2ad4b54f8ff0f7337a80db0, type: 2}
+      probability: 1
+      adjustedProbability: 0
+      update: 0
+    baseTilePrefab: {fileID: 114250981380417298, guid: 83c6fc8af2ad4b54f8ff0f7337a80db0,
+      type: 2}
+    specialTile: {fileID: 0}
+    specialTileType: {fileID: 11400000, guid: b18e2f82c21946943bfc552f25fde0c6, type: 2}
+    backgroundTile: {fileID: 0}
+  tileHolder: {fileID: 4646650753989522}
+  boardHolder: {fileID: 4646650753989522}
+  numOfRows: 12
+  numOfColumns: 1
+  buildingFootprint: 1.04

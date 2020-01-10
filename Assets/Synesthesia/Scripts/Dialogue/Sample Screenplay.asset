@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50f68b692449e7847884ba9c85654d04, type: 3}
+  m_Name: Sample Screenplay
+  m_EditorClassIdentifier: 
+  description: 'Create one screenplay per level having all of the relevant dialogue
+    by
+
+    Assets > Create > Piano > Screenplay.'
+  phrases:
+  - {fileID: 11400000, guid: 8c723fc08419a3247be8e36025301ce4, type: 2}
+  - {fileID: 11400000, guid: 19559695556614b4490abb7f83f48553, type: 2}

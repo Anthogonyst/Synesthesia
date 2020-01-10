@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5d2d6b8e7538954bbe0a397443b1786, type: 3}
+  m_Name: Octave 5
+  m_EditorClassIdentifier: 
+  personalNotes: 'Hopefully we don''t need to use this later on.
+
+    - A'
+  sound:
+  - {fileID: 8300000, guid: 954364b8bad23cd47b94d4797d17788f, type: 3}
+  - {fileID: 8300000, guid: 9ca91f7e8c3df404fb056ea14a65891d, type: 3}
+  - {fileID: 8300000, guid: 191ffc8e20aee9148a55dda1d282e897, type: 3}
+  - {fileID: 8300000, guid: 237e4c0d4fc5e2948a624dd53e27a358, type: 3}
+  - {fileID: 8300000, guid: 997b77a78330bc043b8a57fa22e7d423, type: 3}
+  - {fileID: 8300000, guid: d17fc4f7d4357c24387f1674e3eb326f, type: 3}
+  - {fileID: 8300000, guid: 55d92b3a9e6747b48be12f0cbbe3c533, type: 3}
+  - {fileID: 8300000, guid: 111d29d59194b7940ba3e37148163e8a, type: 3}
+  - {fileID: 8300000, guid: 7521e16c0cda01c42ade447ce67acaf2, type: 3}
+  - {fileID: 8300000, guid: 3fc158dab0af508428ddb38782c08b01, type: 3}
+  - {fileID: 8300000, guid: cb1334f98ee2a23419a6ed4fa935dc08, type: 3}
+  - {fileID: 8300000, guid: cd0afd037b249c449b7b38b293f562cf, type: 3}
+  - {fileID: 8300000, guid: 72494b057e18d54468471cbcddfa8232, type: 3}
