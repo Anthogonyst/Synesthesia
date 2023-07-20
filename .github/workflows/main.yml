@@ -27,7 +27,7 @@ jobs:
         env:
           UNITY_LICENSE: ${{ secrets.UNITY_LICENSE }}
         with:
-          projectPath: .
+          # projectPath: .
           githubToken: ${{ secrets.GITHUB_TOKEN }}
 
       # Build
@@ -39,11 +39,11 @@ jobs:
           UNITY_PASSWORD: ${{ secrets.UNITY_PASSWORD }}
         with:
           buildMethod: UnityBuilderAction.BuildScript.Build
-          projectPath: .
+          # projectPath: .
           targetPlatform: StandaloneWindows64
 
       # Output
       - uses: actions/upload-artifact@v3
         with:
-          name: Build
+          name: Game build
           path: Build
