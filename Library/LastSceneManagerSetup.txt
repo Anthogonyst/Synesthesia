@@ -1,4 +1,0 @@
-sceneSetups:
-- path: Assets/Synesthesia/Scenes/Title_Screen.unity
-  isLoaded: 1
-  isActive: 1
