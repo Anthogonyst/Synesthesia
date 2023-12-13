@@ -1,25 +1,57 @@
 fileFormatVersion: 2
 guid: 181a10dc139a16b42884fa4a011e5b3f
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: mainScreen_0
-    21300002: mainScreen_1
-    21300004: mainScreen_2
-    21300006: mainScreen_3
-    21300008: mainScreen_4
-    21300010: mainScreen_5
-    21300012: mainScreen_6
-    21300014: mainScreen_7
-    21300016: mainScreen_8
-    21300018: mainScreen_9
-    21300020: mainScreen_10
-    21300022: mainScreen_11
-    21300024: mainScreen_12
-    21300026: mainScreen_13
-    21300028: mainScreen_14
-    21300030: mainScreen_15
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: mainScreen_0
+  - first:
+      213: 21300002
+    second: mainScreen_1
+  - first:
+      213: 21300004
+    second: mainScreen_2
+  - first:
+      213: 21300006
+    second: mainScreen_3
+  - first:
+      213: 21300008
+    second: mainScreen_4
+  - first:
+      213: 21300010
+    second: mainScreen_5
+  - first:
+      213: 21300012
+    second: mainScreen_6
+  - first:
+      213: 21300014
+    second: mainScreen_7
+  - first:
+      213: 21300016
+    second: mainScreen_8
+  - first:
+      213: 21300018
+    second: mainScreen_9
+  - first:
+      213: 21300020
+    second: mainScreen_10
+  - first:
+      213: 21300022
+    second: mainScreen_11
+  - first:
+      213: 21300024
+    second: mainScreen_12
+  - first:
+      213: 21300026
+    second: mainScreen_13
+  - first:
+      213: 21300028
+    second: mainScreen_14
+  - first:
+      213: 21300030
+    second: mainScreen_15
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -36,9 +68,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -48,8 +83,8 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: 1
-    aniso: -1
-    mipBias: -100
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -70,11 +105,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -84,8 +125,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -95,7 +138,48 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -115,6 +199,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: fc548c731f05f4742813855c811de386
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -135,6 +220,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b295e9b819417de44b3437a13cbfd802
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -155,6 +241,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 08071ecab638a6041a3b840b93575c7d
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -175,6 +262,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2f9d2532ec9530e4fa4a71c0eafe776d
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -195,6 +283,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: af4096da48a3fd046be442708d810de5
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -215,6 +304,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 36b3eb62eed717646a76090986c4ddd6
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -235,6 +325,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 31c189a591857204cb42adf7bbd92ac4
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -255,6 +346,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8688d779914d24942af6bc23dfee8d07
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -275,6 +367,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f5834b7986e6d62468a11b8111048e2f
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -295,6 +388,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f7939d44b8d058e4e8db0e78708d7608
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -315,6 +409,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: cdf0e0c0128329b4390780e7609201bc
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
@@ -335,6 +430,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: f5ceba53fa9b2f04cb8e4b5775bdc01c
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
@@ -355,6 +451,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c7934763e07c1fc468010a4239c65890
+      internalID: 21300024
       vertices: []
       indices: 
       edges: []
@@ -375,6 +472,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: b4ef0d0028c679e449e3d928bfce51de
+      internalID: 21300026
       vertices: []
       indices: 
       edges: []
@@ -395,6 +493,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 97e6600bdc88dbf4b979112c0e798820
+      internalID: 21300028
       vertices: []
       indices: 
       edges: []
@@ -415,6 +514,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 9dae0b83891f1ed42a55ac1bf5c4d194
+      internalID: 21300030
       vertices: []
       indices: 
       edges: []
@@ -423,13 +523,31 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: a93245198a21c6e4693ba8433bbb262c
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    nameFileIdTable:
+      mainScreen_0: 21300000
+      mainScreen_1: 21300002
+      mainScreen_10: 21300020
+      mainScreen_11: 21300022
+      mainScreen_12: 21300024
+      mainScreen_13: 21300026
+      mainScreen_14: 21300028
+      mainScreen_15: 21300030
+      mainScreen_2: 21300004
+      mainScreen_3: 21300006
+      mainScreen_4: 21300008
+      mainScreen_5: 21300010
+      mainScreen_6: 21300012
+      mainScreen_7: 21300014
+      mainScreen_8: 21300016
+      mainScreen_9: 21300018
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
