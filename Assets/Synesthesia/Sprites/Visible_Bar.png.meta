@@ -1,24 +1,54 @@
 fileFormatVersion: 2
 guid: dd2655147acfeab43bf33d9784a607d3
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Visible_Bar_0
-    21300002: Visible_Bar_1
-    21300004: Visible_Bar_2
-    21300006: Visible_Bar_3
-    21300008: Visible_Bar_4
-    21300010: Visible_Bar_5
-    21300012: Visible_Bar_6
-    21300014: Visible_Bar_7
-    21300016: Visible_Bar_8
-    21300018: Visible_Bar_9
-    21300020: Visible_Bar_10
-    21300022: Visible_Bar_11
-    21300024: Visible_Bar_12
-    21300026: Visible_Bar_13
-    21300028: Visible_Bar_14
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Visible_Bar_0
+  - first:
+      213: 21300002
+    second: Visible_Bar_1
+  - first:
+      213: 21300004
+    second: Visible_Bar_2
+  - first:
+      213: 21300006
+    second: Visible_Bar_3
+  - first:
+      213: 21300008
+    second: Visible_Bar_4
+  - first:
+      213: 21300010
+    second: Visible_Bar_5
+  - first:
+      213: 21300012
+    second: Visible_Bar_6
+  - first:
+      213: 21300014
+    second: Visible_Bar_7
+  - first:
+      213: 21300016
+    second: Visible_Bar_8
+  - first:
+      213: 21300018
+    second: Visible_Bar_9
+  - first:
+      213: 21300020
+    second: Visible_Bar_10
+  - first:
+      213: 21300022
+    second: Visible_Bar_11
+  - first:
+      213: 21300024
+    second: Visible_Bar_12
+  - first:
+      213: 21300026
+    second: Visible_Bar_13
+  - first:
+      213: 21300028
+    second: Visible_Bar_14
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -35,9 +65,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -46,9 +79,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -69,11 +102,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -83,8 +122,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -94,7 +135,48 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -114,6 +196,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 25cb891c849e1464fb92713d301cf1af
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -134,6 +217,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: e3fae08801084994fa1a7356c3e76f0c
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -154,6 +238,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 96534c1f52e69904ea899335d43531c0
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -174,6 +259,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 7c50e2c5bb402ec409f6deaec8a22268
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -194,6 +280,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: c87bf6a1ff0262541a2672ea6badbf99
+      internalID: 21300008
       vertices: []
       indices: 
       edges: []
@@ -214,6 +301,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 6813ed90ab3a7514e9c8ccf77f9b2fb6
+      internalID: 21300010
       vertices: []
       indices: 
       edges: []
@@ -234,6 +322,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 8d2c23a58a8b6b047b320d1f3c6ad2db
+      internalID: 21300012
       vertices: []
       indices: 
       edges: []
@@ -254,6 +343,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: ffbbb440138806142ac0104caf04c614
+      internalID: 21300014
       vertices: []
       indices: 
       edges: []
@@ -274,6 +364,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0784cddcb84f9e24f8ad6a4674ac8318
+      internalID: 21300016
       vertices: []
       indices: 
       edges: []
@@ -294,6 +385,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d19e2f7d141b4644f9f2076f2bcb3327
+      internalID: 21300018
       vertices: []
       indices: 
       edges: []
@@ -314,6 +406,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 2698ae18526623149855eb2664164cdb
+      internalID: 21300020
       vertices: []
       indices: 
       edges: []
@@ -334,6 +427,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 38729645c27a85046801ca60e4ed11d2
+      internalID: 21300022
       vertices: []
       indices: 
       edges: []
@@ -354,6 +448,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 0ba5cd6a2d9c35d4fb6dde38364d3ab7
+      internalID: 21300024
       vertices: []
       indices: 
       edges: []
@@ -374,6 +469,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 466ae0994cc506949b3987610e227e5b
+      internalID: 21300026
       vertices: []
       indices: 
       edges: []
@@ -394,6 +490,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 88e254fc4ed133b4a86f7ec7b01b73a2
+      internalID: 21300028
       vertices: []
       indices: 
       edges: []
@@ -402,13 +499,30 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: defe68da361e2004fa138d3b2b84c638
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    nameFileIdTable:
+      Visible_Bar_0: 21300000
+      Visible_Bar_1: 21300002
+      Visible_Bar_10: 21300020
+      Visible_Bar_11: 21300022
+      Visible_Bar_12: 21300024
+      Visible_Bar_13: 21300026
+      Visible_Bar_14: 21300028
+      Visible_Bar_2: 21300004
+      Visible_Bar_3: 21300006
+      Visible_Bar_4: 21300008
+      Visible_Bar_5: 21300010
+      Visible_Bar_6: 21300012
+      Visible_Bar_7: 21300014
+      Visible_Bar_8: 21300016
+      Visible_Bar_9: 21300018
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

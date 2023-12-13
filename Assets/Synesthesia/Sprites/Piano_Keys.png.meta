@@ -1,13 +1,21 @@
 fileFormatVersion: 2
 guid: 7e5d2b43d7c42b94ca677d566f7e1b55
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: Piano_Keys_0
-    21300002: Piano_Keys_1
-    21300004: Piano_Keys_2
-    21300006: Piano_Keys_3
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: Piano_Keys_0
+  - first:
+      213: 21300002
+    second: Piano_Keys_1
+  - first:
+      213: 21300004
+    second: Piano_Keys_2
+  - first:
+      213: 21300006
+    second: Piano_Keys_3
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 12
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -24,9 +32,12 @@ TextureImporter:
     externalNormalMap: 0
     heightScale: 0.25
     normalMapFilter: 0
+    flipGreenChannel: 0
   isReadable: 0
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -35,9 +46,9 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
-    aniso: -1
-    mipBias: -100
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -58,11 +69,17 @@ TextureImporter:
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  swizzle: 50462976
+  cookieLightType: 1
   platformSettings:
-  - serializedVersion: 2
+  - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -72,8 +89,10 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
-  - serializedVersion: 2
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -83,7 +102,48 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -103,6 +163,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: d741faa18bd8a4d4d82b90f321ccf5f2
+      internalID: 21300000
       vertices: []
       indices: 
       edges: []
@@ -123,6 +184,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: addd40a58dcf3e84692b1dd54c9568b8
+      internalID: 21300002
       vertices: []
       indices: 
       edges: []
@@ -143,6 +205,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: 1954d2f7cf74d244bba1b6ea1ac43077
+      internalID: 21300004
       vertices: []
       indices: 
       edges: []
@@ -163,6 +226,7 @@ TextureImporter:
       tessellationDetail: 0
       bones: []
       spriteID: df58ffab31541684596c99935b59c77e
+      internalID: 21300006
       vertices: []
       indices: 
       edges: []
@@ -171,13 +235,19 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 526d2c8742b979d4397f07cbfc05cae2
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
-  spritePackingTag: 
+    secondaryTextures: []
+    nameFileIdTable:
+      Piano_Keys_0: 21300000
+      Piano_Keys_1: 21300002
+      Piano_Keys_2: 21300004
+      Piano_Keys_3: 21300006
+  mipmapLimitGroupName: 
   pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
